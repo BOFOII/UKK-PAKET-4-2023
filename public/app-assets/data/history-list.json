@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id_history": 1,
+      "id_lelang": 1,
+      "id_barang": 1,
+      "barang": {
+        "id_barang": 1,
+        "slug ": 1,
+        "nama_barang": "IPhone MAX 12",
+        "tgl": "2022-12-12",
+        "harga_awal": 200000,
+        "deskripsi_barang": "Lorem",
+        "images": [
+          {
+            "id": 1,
+            "url": 123123123
+          }
+        ]
+      },
+      "id_user": 1,
+      "penawaran_harga": 20000000
+    }
+  ]
+}

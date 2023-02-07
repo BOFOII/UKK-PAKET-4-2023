@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "nama_petugas": "BOFOIIII",
+      "username": "bofoiii",
+      "id_level": 1,
+      "level": {
+        "id_level": 1,
+        "level": "petugas"
+      },
+      "avatar": {
+        "id": 1,
+        "url": "https://cdna.artstation.com/p/assets/images/images/020/098/794/20190820220545/smaller_square/henderson-weffer-3d-avatar-hweffer-1x1-small.jpg?1566356745"
+      }
+    }
+  ]
+}

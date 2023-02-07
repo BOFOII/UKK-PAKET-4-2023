@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "id_barang": 1,
+      "nama_barang": "iPhone 12 Pro Max",
+      "tgl": "12-12-2022",
+      "harga_awal": 10000000,
+      "deskripsi_barang": "Iphone 12 Pro Xax fullset",
+      "images" : [
+        {
+          "id": 1,
+          "url": "1223132123"
+        }
+      ]
+    },
+    {
+      "id_barang": 2,
+      "nama_barang": "iPhone 13 Pro Max",
+      "tgl": "12-12-2022",
+      "harga_awal": 12000000,
+      "deskripsi_barang": "Iphone 13 Pro Xax fullset",
+      "images" : [
+        {
+          "id": 1,
+          "url": "1223132123"
+        }
+      ]
+    }
+  ]
+}

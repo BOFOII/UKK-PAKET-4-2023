@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id_history": 1,
+      "id_lelang": 1,
+      "id_barang": 1,
+      "id_user": 1,
+      "user": {
+        "nama_lengkap": "BOFOIIII",
+        "username": "bofoiii",
+        "telp": "0822-6999-0089",
+        "avatar": {
+          "id": 1,
+          "url": "12312313"
+        }
+      },
+      "penawaran_harga": 20000000
+    }
+  ]
+}

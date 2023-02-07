@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id_lelang": 1,
+      "id_barang": 1,
+      "barang" : {
+        "id_barang": 1,
+        "nama_barang": "iPhone 12 Pro Max",
+        "tgl": "12-12-2022",
+        "harga_awal": 10000000,
+        "deskripsi_barang": "Iphone 12 Pro Xax fullset",
+        "images" : [
+          {
+            "id": 1,
+            "url": "1223132123"
+          }
+        ]
+      },
+      "tgl_lelang": "12-12-2022",
+      "harga_akhir": null,
+      "id_user": null,
+      "id_petugas": 1,
+      "petugas": {
+        "nama_petugas": "BOFOIIII",
+        "username": "bofoiii",
+        "id_level": 1,
+        "level": {
+          "id_level": 1,
+          "level": "Petugas"
+        },
+        "avatar": {
+          "id": 1,
+          "url": "https://cdna.artstation.com/p/assets/images/images/020/098/794/20190820220545/smaller_square/henderson-weffer-3d-avatar-hweffer-1x1-small.jpg?1566356745"
+        }
+      },
+      "images" : [
+        {
+          "id": 1,
+          "url": "1223132123"
+        }
+      ],
+      "status": "dibuka"
+    }
+  ]
+}
