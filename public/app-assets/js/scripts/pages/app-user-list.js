@@ -44,17 +44,17 @@ $(function () {
   // Users List datatable
   if (dtUserTable.length) {
     dtUserTable.DataTable({
-      ajax: assetPath + 'data/user-list.json', // JSON file to add data
-      columns: [
-        // columns according to JSON
-        { data: '' },
-        { data: 'full_name' },
-        { data: 'role' },
-        { data: 'current_plan' },
-        { data: 'billing' },
-        { data: 'status' },
-        { data: '' }
-      ],
+      // ajax: assetPath + 'data/user-list.json', // JSON file to add data
+      // columns: [
+      //   // columns according to JSON
+      //   { data: '' },
+      //   { data: 'full_name' },
+      //   { data: 'role' },
+      //   { data: 'current_plan' },
+      //   { data: 'billing' },
+      //   { data: 'status' },
+      //   { data: '' }
+      // ],
       columnDefs: [
         {
           // For Responsive

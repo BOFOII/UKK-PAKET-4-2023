@@ -9,32 +9,36 @@
                     <h1 class="mb-1">Informasi Masyarakat</h1>
                     <p>Masukan data masyarakat pada form di bawah untuk menambahkan masyarakat.</p>
                 </div>
-                <form id="editUserForm" class="row gy-1 pt-75" onsubmit="return false">
+                <form id="main-form" class="row gy-1 pt-75" onsubmit="return false">
                     <div class="col-12 col-md-6">
                         <label class="form-label" for="basic-icon-default-fullname">Nama Lengkap</label>
-                        <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname"
+                        <input type="text" class="form-control dt-full-name error" id="basic-icon-default-fullname"
                             placeholder="contoh: John Doe" name="user-fullname" />
+                        <span id="basic-default-name-error" class="error">This field is required.</span>
                     </div>
                     <div class="col-12 col-md-6">
                         <label class="form-label" for="basic-icon-default-uname">Username</label>
-                        <input type="text" id="basic-icon-default-uname" class="form-control dt-uname"
+                        <input type="text" id="basic-icon-default-uname" class="form-control dt-uname error"
                             placeholder="contoh: Zalpha" name="user-name" />
+                        <span id="basic-default-name-error" class="error">This field is required.</span>
                     </div>
                     <div class="col-12 col-md-6">
                         <label class="form-label" for="basic-icon-default-uname">Telpon</label>
-                        <input type="text" id="basic-icon-default-uname" class="form-control dt-uname"
+                        <input type="text" id="basic-icon-default-uname" class="form-control dt-uname error"
                             placeholder="contoh: 6282269990089" name="user-name" />
+                        <span id="basic-default-name-error" class="error">This field is required.</span>
                     </div>
                     <div class="col-12 col-md-6">
                         <label class="form-label" for="basic-icon-default-email">Password</label>
-                        <input type="text" id="basic-icon-default-password" class="form-control dt-email"
+                        <input type="text" id="basic-icon-default-password" class="form-control dt-email error"
                             name="password" />
+                            <span id="basic-default-name-error" class="error">This field is required.</span>
                     </div>
                 </form>
                 <div class="col-12 mt-2 pt-50">
                     <label class="form-label" for="basic-icon-default-email">Avatar</label>
 
-                    <form action="#" class="dropzone dropzone-area" id="dpz-remove-all-thumb">
+                    <form action="#" class="dropzone dropzone-area" id="dpz-images">
                         <div class="dz-message">Drop files here or click to upload.</div>
                     </form>
 

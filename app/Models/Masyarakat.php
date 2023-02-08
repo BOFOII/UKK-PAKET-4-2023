@@ -27,11 +27,6 @@ class Masyarakat extends User
     "password"
   ];
 
-  public function lelang(): HasMany
-  {
-    return $this->hasMany(Lelang::class, "id_user", "id_user");
-  }
-
   public function history(): HasMany
   {
     return $this->hasMany(History::class, "id_user", "id_user");

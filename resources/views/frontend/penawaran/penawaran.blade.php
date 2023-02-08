@@ -12,6 +12,7 @@
         href="{{ asset('../app-assets/vendor/css/tables/datatable/buttons.bootstrap5.min.css') }}">
     <link rel="stylesheet" type="text/css"
         href="{{ asset('../app-assets/vendor/css/tables/datatable/rowGroup.bootstrap5.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('../app-assets/css/plugins/form/form-validation.css') }}">
 @endpush
 @push('page-css')
     <link rel="stylesheet" type="text/css" href="{{ asset('../app-assets/css/pages/app-ecommerce-details.css') }}">
@@ -102,9 +103,9 @@
                                     </p>
                                     <hr />
                                     <div class="d-flex flex-column flex-sm-row pt-1">
-                                        <a href="#" class="btn btn-primary btn-cart me-0 me-sm-1 mb-1 mb-sm-0">
+                                        <a data-bs-toggle='modal' data-bs-target='#modal-tawaran' href="#" class="btn btn-primary btn-cart me-0 me-sm-1 mb-1 mb-sm-0">
                                             <i data-feather="shopping-cart" class="me-50"></i>
-                                            <span class="add-to-cart">Add to cart</span>
+                                            <span class="add-to-cart">Tawar</span>
                                         </a>
                                         <div class="btn-group dropdown-icon-wrapper btn-share">
                                             <button type="button"
@@ -175,15 +176,35 @@
                                     <table class="user-list-table table">
                                         <thead class="table-light">
                                             <tr>
-                                                <th></th>
                                                 <th>Ranking</th>
                                                 <th>User</th>
                                                 <th>Tawaran</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-
-                                        </tbody>
+                                          <td>
+                                              <span class="text-nowrap">#1</span>
+                                          </td>
+                                          <td>
+                                              <div class="d-flex justify-content-left align-items-center">
+                                                  <div class="avatar-wrapper">
+                                                      <div class="avatar colorClass me-1">
+                                                          <img src="" alt="Avatar" height="32" width="32">
+                                                      </div>
+                                                  </div>
+                                                  <div class="d-flex flex-column">
+                                                      <a href="" class="user_name text-truncate text-body">
+                                                          <span class="fw-bolder">BOFOIII</span>
+                                                      </a>
+                                                      <small class="emp_post text-muted">Username:
+                                                          bofoiii
+                                                      </small>
+                                                  </div>
+                                              </div>
+                                          </td><td>
+                                            <small class="text-nowrap">Rp 27.000.000</small>
+                                        </td>
+                                      </tbody>
                                     </table>
                                 </div>
                             </div>

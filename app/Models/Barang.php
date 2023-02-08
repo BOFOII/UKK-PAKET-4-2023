@@ -18,7 +18,6 @@ class Barang extends Model
   public $incrementing = false;
 
   protected $fillable = [
-    "slug",
     "nama_barang",
     "tgl",
     "harga_awal",

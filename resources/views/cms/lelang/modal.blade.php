@@ -12,16 +12,18 @@
               <form id="editUserForm" class="row gy-1 pt-75" onsubmit="return false">
                   <div class="col-12 col-md-6">
                     <label class="form-label" for="barang-lelang">Barang</label>
-                    <select id="barang-lelang" class="select2 form-select">
+                    <select id="barang-lelang" class="select2 form-select error">
                         <option value="subscriber">IPhone 12 Pro Max</option>
                     </select>
+                    <span id="basic-default-name-error" class="error">This field is required.</span>
                   </div>
                   <div class="col-12 col-md-6">
                     <label class="form-label" for="lelang-status">Status</label>
-                  <select id="lelang-status" class="select2 form-select">
-                      <option value="dibuka">Dibuka</option>
-                      <option value="ditutup">Ditutup</option>
-                  </select>
+                    <select id="lelang-status" class="select2 form-select error">
+                        <option value="dibuka">Dibuka</option>
+                        <option value="ditutup">Ditutup</option>
+                    </select>
+                    <span id="basic-default-name-error" class="error">This field is required.</span>
                   </div>
               </form>
               <div class="col-12 text-center mt-2 pt-50">

@@ -14,8 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('tb_barang', function (Blueprint $table) {
-            $table->uuid("id_barang")->unique();
-            $table->string("slug")->unique();
+            $table->uuid("id_barang")->primary();
             $table->string("nama_barang", 25);
             $table->date("tgl");
             $table->bigInteger("harga_awal");

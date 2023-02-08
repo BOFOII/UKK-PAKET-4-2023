@@ -12,9 +12,9 @@ class RegisterRequests extends FormRequest {
 
   public function rules() : array {
     return [
-      "nama_lengkap" => ["string", "max:25"],
-      "username" => ["string", "between:4,25", "unique:tb_masyarakat,username"],
-      "password" => ["string"]
+      "nama_lengkap" => ["required", "string", "max:25"],
+      "username" => ["required","string", "between:4,25", "unique:tb_masyarakat,username"],
+      "password" => ["required", "string"]
     ];
   }
 }

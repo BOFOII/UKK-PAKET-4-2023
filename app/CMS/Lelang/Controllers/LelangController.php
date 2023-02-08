@@ -10,4 +10,16 @@ class LelangController extends Controller {
   public function show() : View {
     return view("cms.lelang.lelang");
   }
+
+  public function create() {
+
+  }
+
+  public function update() {
+
+  }
+
+  public function deletee() {
+
+  }
 }

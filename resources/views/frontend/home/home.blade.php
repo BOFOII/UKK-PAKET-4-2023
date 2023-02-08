@@ -116,13 +116,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div>
                                   <h6 class="item-price">$339.99</h6>
@@ -147,8 +140,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -165,13 +158,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                  </ul>
                               </div>
                               <div>
                                   <h6 class="item-price">$669.99</h6>
@@ -195,8 +181,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart" class="text-danger"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award" class="text-danger"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -211,13 +197,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div>
                                   <div class="item-cost">
@@ -245,8 +224,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -262,13 +241,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div class="item-cost">
                                   <h6 class="item-price">$49.99</h6>
@@ -292,8 +264,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -310,13 +282,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div class="item-cost">
                                   <h6 class="item-price">$999.99</h6>
@@ -342,8 +307,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart" class="text-danger"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award" class="text-danger"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -360,13 +325,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div class="item-cost">
                                   <h6 class="item-price">$429.99</h6>
@@ -391,8 +349,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -409,13 +367,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div class="item-cost">
                                   <h6 class="item-price">$129.29</h6>
@@ -441,8 +392,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -459,13 +410,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                  </ul>
                               </div>
                               <div class="item-cost">
                                   <h6 class="item-price">$7999.99</h6>
@@ -488,8 +432,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>
@@ -506,13 +450,6 @@
                       <div class="card-body">
                           <div class="item-wrapper">
                               <div class="item-rating">
-                                  <ul class="unstyled-list list-inline">
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="filled-star"></i></li>
-                                      <li class="ratings-list-item"><i data-feather="star" class="unfilled-star"></i></li>
-                                  </ul>
                               </div>
                               <div class="item-cost">
                                   <h6 class="item-price">$14.99</h6>
@@ -537,8 +474,8 @@
                               </div>
                           </div>
                           <a href="#" class="btn btn-light btn-wishlist">
-                              <i data-feather="heart"></i>
-                              <span>Wishlist</span>
+                              <i data-feather="award"></i>
+                              <span>Belum ada</span>
                           </a>
                           <a href="#" class="btn btn-primary btn-cart">
                               <i data-feather="shopping-cart"></i>

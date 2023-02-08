@@ -14,8 +14,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('tb_lelang', function (Blueprint $table) {
-            $table->uuid("id_lelang")->unique();
-
+            $table->uuid("id_lelang")->primary();
+            $table->string("slug")->unique();
+            
             $table->foreignUuid("id_barang")->references("id_barang")->on("tb_barang");
 
             $table->date("tgl_lelang");

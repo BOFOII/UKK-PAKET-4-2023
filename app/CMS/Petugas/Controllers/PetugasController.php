@@ -10,4 +10,16 @@ class PetugasController extends Controller {
   public function show() : View {
     return view('cms.petugas.petugas');
   }
+
+  public function create() {
+
+  }
+
+  public function update() {
+
+  }
+
+  public function delete() {
+    
+  }
 }

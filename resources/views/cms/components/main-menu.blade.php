@@ -50,13 +50,18 @@
               <a class="d-flex align-items-center" href="#"><i data-feather="layout"></i><span class="menu-title text-truncate" data-i18n="Page Layouts">User Manager</span>
               </a>
               <ul class="menu-content">
-                  <li><a class="d-flex align-items-center" href="layout-collapsed-menu.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Collapsed Menu">Masyarakat</span></a>
+                  <li>
+                    <a class="d-flex align-items-center" href="layout-collapsed-menu.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Collapsed Menu">Masyarakat</span></a>
                   </li>
-                  <li><a class="d-flex align-items-center" href="layout-full.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Layout Full">Petugas</span></a>
+                  <li>
+                    <a class="d-flex align-items-center" href="layout-full.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Layout Full">Petugas</span></a>
                   </li>
               </ul>
           </li>
-          <li class=" nav-item"><a class="d-flex align-items-center" href="index.html"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Home">Laporan</span></a>
+          <li class=" nav-item">
+            <a class="d-flex align-items-center" href="index.html">
+              <i data-feather="file-text"></i><span class="menu-title text-truncate" data-i18n="Home">Laporan</span>
+            </a>
           </li>
       </ul>
   </div>

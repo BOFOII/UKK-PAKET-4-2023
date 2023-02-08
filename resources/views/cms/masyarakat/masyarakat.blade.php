@@ -25,52 +25,7 @@
                                     </div>
                                     <div class="avatar bg-light-primary p-50">
                                         <span class="avatar-content">
-                                            <i data-feather="user" class="font-medium-4"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="card">
-                                <div class="card-body d-flex align-items-center justify-content-between">
-                                    <div>
-                                        <h3 class="fw-bolder mb-75">4,567</h3>
-                                        <span>Paid Users</span>
-                                    </div>
-                                    <div class="avatar bg-light-danger p-50">
-                                        <span class="avatar-content">
-                                            <i data-feather="user-plus" class="font-medium-4"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="card">
-                                <div class="card-body d-flex align-items-center justify-content-between">
-                                    <div>
-                                        <h3 class="fw-bolder mb-75">19,860</h3>
-                                        <span>Active Users</span>
-                                    </div>
-                                    <div class="avatar bg-light-success p-50">
-                                        <span class="avatar-content">
-                                            <i data-feather="user-check" class="font-medium-4"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="card">
-                                <div class="card-body d-flex align-items-center justify-content-between">
-                                    <div>
-                                        <h3 class="fw-bolder mb-75">237</h3>
-                                        <span>Pending Users</span>
-                                    </div>
-                                    <div class="avatar bg-light-warning p-50">
-                                        <span class="avatar-content">
-                                            <i data-feather="user-x" class="font-medium-4"></i>
+                                            <i data-feather="users" class="font-medium-4"></i>
                                         </span>
                                     </div>
                                 </div>
@@ -91,12 +46,76 @@
                             <table class="user-list-table table">
                                 <thead class="table-light">
                                     <tr>
-                                        <th></th>
                                         <th>Personal Info</th>
                                         <th>Telpon</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
+                                <tbody>
+                                    <td>
+                                        <div class="d-flex justify-content-left align-items-center">
+                                            <div class="avatar-wrapper">
+                                                <div class="avatar colorClass me-1">
+                                                    <img src="" alt="Avatar" height="32" width="32">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a href="" class="user_name text-truncate text-body">
+                                                    <span class="fw-bolder">BOFOIII</span>
+                                                </a>
+                                                <small class="emp_post text-muted">Username:
+                                                    bofoiii
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <small class="text-nowrap">62226990089</small>
+                                    </td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <a class="btn btn-sm dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-more-vertical font-small-4">
+                                                    <circle cx="12" cy="12" r="1"></circle>
+                                                    <circle cx="12" cy="5" r="1"></circle>
+                                                    <circle cx="12" cy="19" r="1"></circle>
+                                                </svg>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="" class="dropdown-item">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-more-vertical font-small-4">
+                                                        <circle cx="12" cy="12" r="1"></circle>
+                                                        <circle cx="12" cy="5" r="1"></circle>
+                                                        <circle cx="12" cy="19" r="1"></circle>
+                                                    </svg>
+                                                    Details
+                                                </a>
+                                                <a href="javascript:;" class="dropdown-item delete-record">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-trash-2 font-small-4 me-50">
+                                                        <polyline points="3 6 5 6 21 6"></polyline>
+                                                        <path
+                                                            d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                        </path>
+                                                        <line x1="10" y1="11" x2="10"
+                                                            y2="17"></line>
+                                                        <line x1="14" y1="11" x2="14"
+                                                            y2="17"></line>
+                                                    </svg>
+                                                    Delete
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tbody>
                             </table>
                         </div>
                         <!-- Modal to add new user starts-->
@@ -116,5 +135,5 @@
 @endpush
 @push('page-js')
 <script src="{{ asset('../app-assets/js/scripts/pages/cms/app-masyarakat-list.js') }}"></script>
-<script src="{{ asset('../app-assets/js/scripts/forms/form-file-uploader.js') }}"></script>
+<script src="{{ asset('../app-assets/js/scripts/forms/single-file-uploader.js') }}"></script>
 @endpush

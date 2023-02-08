@@ -7,9 +7,10 @@ use App\CMS\Lelang\Controllers\LelangController as AdminLelangController;
 use App\CMS\Masyarakat\Controllers\MasyarakatController as AdminMasyarakatController;
 use App\CMS\Petugas\Controllers\PetugasController as AdminPetugasController;
 use App\Frontend\Auth\Controllers\AuthController;
-use App\Frontend\Barang\Controllers\BarangController;
+use App\Frontend\Home\Controllers\HomeController;
 use App\Frontend\Penawaran\Controllers\PenawaranController;
 use App\Frontend\Profile\Controllers\ProfileController;
+use App\Http\Controllers\ImageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,11 +24,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', [AuthController::class, 'showLogin']);
-Route::get('/register', [AuthController::class, 'showRegister']);
-Route::get('/', [BarangController::class, 'show']);
-Route::get('/tawar-barang/{uuid}', [PenawaranController::class, 'show']);
-Route::get('/profile', [ProfileController::class, 'show']);
+Route::get('/login', [AuthController::class, 'showLogin'])->name("view.login");
+Route::get('/register', [AuthController::class, 'showRegister'])->name("view.register");
+Route::get('/', [HomeController::class, 'show'])->name("view.home");
+Route::get('/tawar-barang/{uuid}', [PenawaranController::class, 'show'])->name("view.tawar");
+Route::get('/profile', [ProfileController::class, 'show'])->name("view.profile");
+
+Route::post('/login', [AuthController::class, 'login'])->name("post.login");
+Route::delete('/logout', [AuthController::class, 'logout'])->name("delete.logout");
+Route::post('/register', [AuthController::class, 'register'])->name("post.register");
+Route::post('/tawar-barang/{slug}', [PenawaranController::class, 'tawar'])->name("post.tawar");
+Route::patch('/profile', [ProfileController::class, 'update'])->name("patch.profile");
 
 Route::prefix('admin')->group(function() {
   Route::get('/portal', [AdminAuthController::class, 'show']);
@@ -36,4 +43,7 @@ Route::prefix('admin')->group(function() {
   Route::get('/petugas', [AdminPetugasController::class, 'show']);
   Route::get('/masyarakat', [AdminMasyarakatController::class, 'show']);
   Route::get('/laporan', [AdminLaporanController::class, 'show']);
+
 });
+
+Route::post('/images', [ImageController::class, 'upload'])->name("post.images");
