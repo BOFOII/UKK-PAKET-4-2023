@@ -38,6 +38,22 @@
                                 <p class="card-text mb-2">Buat akunmu dan berikan penawaran terbaikmu!</p>
                                 <form class="auth-register-form mt-2" action="" method="POST">
                                     <div class="mb-1">
+                                        <label class="form-label" for="register-username">Nama Lengkap</label>
+                                        <input class="form-control error" id="register-username" type="text"
+                                            name="register-username" placeholder="johndoe"
+                                            aria-describedby="register-username" autofocus="" tabindex="1" />
+                                        <span id="basic-default-name-error" class="error">This field is
+                                            required.</span>
+                                    </div>
+                                    <div class="mb-1">
+                                        <label class="form-label" for="register-username">Telpon</label>
+                                        <input class="form-control error" id="register-username" type="text"
+                                            name="register-username" placeholder="johndoe"
+                                            aria-describedby="register-username" autofocus="" tabindex="1" />
+                                        <span id="basic-default-name-error" class="error">This field is
+                                            required.</span>
+                                    </div>
+                                    <div class="mb-1">
                                         <label class="form-label" for="register-username">Username</label>
                                         <input class="form-control error" id="register-username" type="text"
                                             name="register-username" placeholder="johndoe"
