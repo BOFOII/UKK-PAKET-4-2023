@@ -22,4 +22,8 @@ class History extends Model
         "id_user",
         "penawaran_harga"
     ];
+
+    public function user() : BelongsTo {
+      return $this->belongsTo(Masyarakat::class, 'id_user', 'id_user');
+    }
 }

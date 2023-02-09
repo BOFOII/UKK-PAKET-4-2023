@@ -13,6 +13,12 @@ use Illuminate\View\View;
 class AuthController extends Controller
 {
 
+  public function __construct()
+  {
+    $this->middleware("guest")->except("logout");
+    $this->middleware("auth:web")->only("logout");
+  }
+
   public function showLogin() : View
   {
     return view('frontend.auth.login');

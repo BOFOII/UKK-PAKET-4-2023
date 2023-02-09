@@ -33,7 +33,7 @@ class BarangRequest extends FormRequest
       "tgl" => $tgl_rules,
       "harga_awal" => $harga_awal_rules,
       "deskripsi_barang" => $deskripsi_barang_rules,
-      "images" => $images_rules,
+      "images.*" => $images_rules,
     ];
   }
 }

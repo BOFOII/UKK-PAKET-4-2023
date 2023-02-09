@@ -29,6 +29,7 @@
 
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('../app-assets/css/core/menu/menu-types/vertical-menu.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('../app-assets/vendor/css/extensions/toastr.min.css') }}">
     @stack('page-css')
     <!-- END: Page CSS-->
 
@@ -49,6 +50,7 @@
 
     <!-- BEGIN: Page Vendor JS-->
     <script src="{{ asset('../app-assets/vendor/js/ui/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('../app-assets/vendor/js/extensions/toastr.min.js') }}"></script>
     @stack('page-vendor-js')
     <!-- END: Page Vendor JS-->
 
@@ -72,6 +74,8 @@
             }
         })
     </script>
+
+    @include('components.toaster')
 </body>
 <!-- END: Body-->
 
